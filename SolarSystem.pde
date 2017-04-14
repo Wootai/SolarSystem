@@ -1,11 +1,11 @@
 color[] COLORS = {color(255, 0, 0), color(0,0,255), color(255,0,150), color(0,150,0), color(0,0,110), color(110, 50, 0), color(0,0,150), color(255,255,0)};
 float GRAV_CONST = 9.73;
-ArrayList<SpaceObject> solarSystem;
 PVector POS ;
 PVector VEL;
 float MASS;
 float RAD;
 
+ArrayList<SpaceObject> solarSystem;
 SpaceObject s;
 
 ArrayList<PVector> stars;
